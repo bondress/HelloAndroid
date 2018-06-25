@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent mailIntent = new Intent(Intent.ACTION_VIEW);
-                mailIntent.setData(Uri.parse("mailto:ceo@craftycupcakes.com"));
+                mailIntent.setData(Uri.parse("mailto:ceo@udacity.com"));
                 startActivity(Intent.createChooser(mailIntent, "Send your email in:"));
             }
         });
